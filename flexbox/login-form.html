@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://kit.fontawesome.com/0434995a25.js" crossorigin="anonymous"></script>
+    <style>
+        .login {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin-top: 90px;
+
+        }
+
+        .login input {
+            margin-top: 1em;
+            padding: 20px 25px;
+            border: 1px solid purple;
+        }
+
+        .A {
+            display: flex;
+            justify-content: center;
+        }
+
+        #x {
+            color: black;
+            font-weight: 700;
+            background-color: blueviolet;
+            border-radius: 7px;
+            width: 20%;
+            margin-left: 250px;
+        }
+
+        nav a {
+            margin-right: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <span>
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Dashboard</a>
+            <a href="">Sexboard</a>
+        </span>
+
+        <span>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </span>
+    </nav>
+
+    <div class="A">
+
+        <form class="login">
+            <h2>Login Form</h2>
+            <input type="email" placeholder="Your Email" required>
+            <input type="password" placeholder="Password" required>
+            <input id="x" type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
